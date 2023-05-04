@@ -1339,7 +1339,7 @@ are always available.  They are listed here in alphabetical order.
       single: I/O control; buffering
       single: binary mode
       single: text mode
-      module: sys
+      pair: module; sys
 
    See also the file handling modules, such as :mod:`fileinput`, :mod:`io`
    (where :func:`open` is declared), :mod:`os`, :mod:`os.path`, :mod:`tempfile`,
@@ -1979,7 +1979,11 @@ are always available.  They are listed here in alphabetical order.
 
    .. index::
       statement: import
+<<<<<<< HEAD
       module: imp
+=======
+      pair: module; builtins
+>>>>>>> d0122372f2 (GH-97950: Use new-style index directive ('module') (#103996))
 
    .. note::
 
