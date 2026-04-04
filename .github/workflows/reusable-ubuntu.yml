@@ -1,5 +1,7 @@
 name: Reusable Ubuntu
 
+permissions: {}
+
 on:
   workflow_call:
     inputs:
